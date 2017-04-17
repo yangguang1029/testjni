@@ -1,11 +1,13 @@
 #include <iostream>
+#include "com_example_guangyang_testjni1_TestJNI.h"
 
 using namespace std;
 
 extern void test1();
 
-void test2(){
-
-	cout << "fuck in test2" << endl;
+void Java_com_example_guangyang_testjni1_TestJNI_test
+  (JNIEnv *env, jobject jo){
+  	cout << "fuck in test2" << endl;
 	test1();
-}
+  }
+

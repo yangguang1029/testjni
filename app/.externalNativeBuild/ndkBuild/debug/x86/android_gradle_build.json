@@ -1,29 +1,29 @@
 {
   "buildFiles": [
-    "/Users/guangyang/project/test/testjni/app/cpp2/Android.mk",
-    "/Users/guangyang/project/test/testjni/app/cpp2/Application.mk"
+    "F:\\testjni\\app\\cpp2\\Android.mk",
+    "F:\\testjni\\app\\cpp2\\Application.mk"
   ],
   "cleanCommands": [
-    "/Users/guangyang/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/guangyang/project/test/testjni/app/cpp2/Android.mk NDK_APPLICATION_MK\u003d/Users/guangyang/project/test/testjni/app/cpp2/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-15 NDK_OUT\u003d/Users/guangyang/project/test/testjni/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/guangyang/project/test/testjni/app/build/intermediates/ndkBuild/debug/lib clean"
+    "C:\\Users\\yangguang01\\AppData\\Local\\Android\\android-sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dF:\\testjni\\app\\cpp2\\Android.mk NDK_APPLICATION_MK\u003dF:\\testjni\\app\\cpp2\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-15 NDK_OUT\u003dF:/testjni/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dF:\\testjni\\app\\build\\intermediates\\ndkBuild\\debug\\lib clean"
   ],
   "libraries": {
     "test2-debug-x86": {
-      "buildCommand": "/Users/guangyang/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/guangyang/project/test/testjni/app/cpp2/Android.mk NDK_APPLICATION_MK\u003d/Users/guangyang/project/test/testjni/app/cpp2/Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-15 NDK_OUT\u003d/Users/guangyang/project/test/testjni/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/guangyang/project/test/testjni/app/build/intermediates/ndkBuild/debug/lib /Users/guangyang/project/test/testjni/app/build/intermediates/ndkBuild/debug/obj/local/x86/libtest2.so",
+      "buildCommand": "C:\\Users\\yangguang01\\AppData\\Local\\Android\\android-sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dF:\\testjni\\app\\cpp2\\Android.mk NDK_APPLICATION_MK\u003dF:\\testjni\\app\\cpp2\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-15 NDK_OUT\u003dF:/testjni/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dF:\\testjni\\app\\build\\intermediates\\ndkBuild\\debug\\lib F:/testjni/app/build/intermediates/ndkBuild/debug/obj/local/x86/libtest2.so",
       "toolchain": "toolchain-x86",
       "abi": "x86",
       "artifactName": "test2",
       "files": [
         {
-          "src": "/Users/guangyang/project/test/testjni/app/cpp2/test2.cpp",
-          "flags": "\"-gcc-toolchain\" \"/Users/guangyang/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64\" \"-target\" \"i686-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fPIC\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-fno-exceptions\" \"-fno-rtti\" \"-O0\" \"-UNDEBUG\" \"-fno-limit-debug-info\" \"-I/Users/guangyang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/stlport/stlport\" \"-I/Users/guangyang/Library/Android/sdk/ndk-bundle/sources/cxx-stl//gabi++/include\" \"-I/Users/guangyang/project/test/testjni/app/cpp2\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-mstackrealign\" \"-frtti\" \"--sysroot\" \"/Users/guangyang/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-x86\""
+          "src": "F:\\testjni\\app\\cpp2\\test2.cpp",
+          "flags": "\"-gcc-toolchain\" \"C:/Users/yangguang01/AppData/Local/Android/android-sdk/ndk-bundle/build//../toolchains/x86-4.9/prebuilt/windows-x86_64\" \"-target\" \"i686-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fPIC\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-fno-exceptions\" \"-fno-rtti\" \"-O0\" \"-UNDEBUG\" \"-fno-limit-debug-info\" \"-IF:/testjni/app/cpp2\" \"-IC:/Users/yangguang01/AppData/Local/Android/android-sdk/ndk-bundle/build//../sources/cxx-stl/stlport/stlport\" \"-IC:/Users/yangguang01/AppData/Local/Android/android-sdk/ndk-bundle/build//../sources/cxx-stl//gabi++/include\" \"-IF:/testjni/app/cpp2\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-mstackrealign\" \"-frtti\" \"--sysroot\" \"C:/Users/yangguang01/AppData/Local/Android/android-sdk/ndk-bundle/build//../platforms/android-15/arch-x86\""
         }
       ],
-      "output": "/Users/guangyang/project/test/testjni/app/build/intermediates/ndkBuild/debug/obj/local/x86/libtest2.so"
+      "output": "F:\\testjni\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86\\libtest2.so"
     }
   },
   "toolchains": {
     "toolchain-x86": {
-      "cppCompilerExecutable": "/Users/guangyang/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+      "cppCompilerExecutable": "C:\\Users\\yangguang01\\AppData\\Local\\Android\\android-sdk\\ndk-bundle\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
     }
   },
   "cFileExtensions": [],
