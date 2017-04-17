@@ -2,6 +2,7 @@
 #include "com_example_guangyang_testjni1_TestJNI.h"
 
 #include "test1.h"
+#include "test3.h"
 
 using namespace std;
 
@@ -11,5 +12,6 @@ void Java_com_example_guangyang_testjni1_TestJNI_test
   (JNIEnv *env, jobject jo){
   	cout << "fuck in test2" << endl;
 	Test1* t = new Test1();
+	Test3 t1;
   }
 

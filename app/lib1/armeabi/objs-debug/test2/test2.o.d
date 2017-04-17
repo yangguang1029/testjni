@@ -97,7 +97,8 @@ F:/testjni/app/build/intermediates/ndkBuild/debug/obj/local/armeabi/objs-debug/t
   C:/Users/yangguang01/AppData/Local/Android/android-sdk/ndk-bundle/build//../sources/cxx-stl/stlport/stlport\stl/_num_get.c \
   C:/Users/yangguang01/AppData/Local/Android/android-sdk/ndk-bundle/build//../sources/cxx-stl/stlport/stlport\stl/_epilog.h \
   C:/Users/yangguang01/AppData/Local/Android/android-sdk/ndk-bundle/build//../sources/cxx-stl/stlport/stlport\stl/_config_compat_post.h \
-  F:/testjni/app/cpp2/com_example_guangyang_testjni1_TestJNI.h
+  F:/testjni/app/cpp2/com_example_guangyang_testjni1_TestJNI.h \
+  F:/testjni/app/cpp2/../cpp1\test1.h
 
 C:/Users/yangguang01/AppData/Local/Android/android-sdk/ndk-bundle/build//../sources/cxx-stl/stlport/stlport\iostream:
 
@@ -294,3 +295,5 @@ C:/Users/yangguang01/AppData/Local/Android/android-sdk/ndk-bundle/build//../sour
 C:/Users/yangguang01/AppData/Local/Android/android-sdk/ndk-bundle/build//../sources/cxx-stl/stlport/stlport\stl/_config_compat_post.h:
 
 F:/testjni/app/cpp2/com_example_guangyang_testjni1_TestJNI.h:
+
+F:/testjni/app/cpp2/../cpp1\test1.h:

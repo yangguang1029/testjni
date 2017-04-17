@@ -7,6 +7,19 @@
     "C:\\Users\\yangguang01\\AppData\\Local\\Android\\android-sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dF:\\testjni\\app\\cpp2\\Android.mk NDK_APPLICATION_MK\u003dF:\\testjni\\app\\cpp2\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-15 NDK_OUT\u003dF:/testjni/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dF:\\testjni\\app\\build\\intermediates\\ndkBuild\\release\\lib clean"
   ],
   "libraries": {
+    "test3-release-x86": {
+      "buildCommand": "C:\\Users\\yangguang01\\AppData\\Local\\Android\\android-sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dF:\\testjni\\app\\cpp2\\Android.mk NDK_APPLICATION_MK\u003dF:\\testjni\\app\\cpp2\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-15 NDK_OUT\u003dF:/testjni/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dF:\\testjni\\app\\build\\intermediates\\ndkBuild\\release\\lib F:/testjni/app/build/intermediates/ndkBuild/release/obj/local/x86/libtest3.so",
+      "toolchain": "toolchain-x86",
+      "abi": "x86",
+      "artifactName": "test3",
+      "files": [
+        {
+          "src": "F:\\testjni\\app\\cpp2\\..\\cpp3\\test3.cpp",
+          "flags": "\"-gcc-toolchain\" \"C:/Users/yangguang01/AppData/Local/Android/android-sdk/ndk-bundle/build//../toolchains/x86-4.9/prebuilt/windows-x86_64\" \"-target\" \"i686-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fPIC\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-fno-exceptions\" \"-fno-rtti\" \"-O2\" \"-DNDEBUG\" \"-IF:/testjni/app/cpp2/..//cpp3\" \"-IC:/Users/yangguang01/AppData/Local/Android/android-sdk/ndk-bundle/build//../sources/cxx-stl/stlport/stlport\" \"-IC:/Users/yangguang01/AppData/Local/Android/android-sdk/ndk-bundle/build//../sources/cxx-stl//gabi++/include\" \"-IF:/testjni/app/cpp2/..//cpp3\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-mstackrealign\" \"-frtti\" \"--sysroot\" \"C:/Users/yangguang01/AppData/Local/Android/android-sdk/ndk-bundle/build//../platforms/android-15/arch-x86\""
+        }
+      ],
+      "output": "F:\\testjni\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\x86\\libtest3.so"
+    },
     "test2-release-x86": {
       "buildCommand": "C:\\Users\\yangguang01\\AppData\\Local\\Android\\android-sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dF:\\testjni\\app\\cpp2\\Android.mk NDK_APPLICATION_MK\u003dF:\\testjni\\app\\cpp2\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-15 NDK_OUT\u003dF:/testjni/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dF:\\testjni\\app\\build\\intermediates\\ndkBuild\\release\\lib F:/testjni/app/build/intermediates/ndkBuild/release/obj/local/x86/libtest2.so",
       "toolchain": "toolchain-x86",
@@ -14,8 +27,12 @@
       "artifactName": "test2",
       "files": [
         {
+          "src": "F:\\testjni\\app\\cpp2\\..\\cpp3\\test3.cpp",
+          "flags": "\"-gcc-toolchain\" \"C:/Users/yangguang01/AppData/Local/Android/android-sdk/ndk-bundle/build//../toolchains/x86-4.9/prebuilt/windows-x86_64\" \"-target\" \"i686-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fPIC\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-fno-exceptions\" \"-fno-rtti\" \"-O2\" \"-DNDEBUG\" \"-IF:/testjni/app/cpp2/..//cpp3\" \"-IC:/Users/yangguang01/AppData/Local/Android/android-sdk/ndk-bundle/build//../sources/cxx-stl/stlport/stlport\" \"-IC:/Users/yangguang01/AppData/Local/Android/android-sdk/ndk-bundle/build//../sources/cxx-stl//gabi++/include\" \"-IF:/testjni/app/cpp2/..//cpp3\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-mstackrealign\" \"-frtti\" \"--sysroot\" \"C:/Users/yangguang01/AppData/Local/Android/android-sdk/ndk-bundle/build//../platforms/android-15/arch-x86\""
+        },
+        {
           "src": "F:\\testjni\\app\\cpp2\\test2.cpp",
-          "flags": "\"-gcc-toolchain\" \"C:/Users/yangguang01/AppData/Local/Android/android-sdk/ndk-bundle/build//../toolchains/x86-4.9/prebuilt/windows-x86_64\" \"-target\" \"i686-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fPIC\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-fno-exceptions\" \"-fno-rtti\" \"-O2\" \"-DNDEBUG\" \"-IF:/testjni/app/cpp2\" \"-IF:/testjni/app/cpp2/../cpp1\" \"-IC:/Users/yangguang01/AppData/Local/Android/android-sdk/ndk-bundle/build//../sources/cxx-stl/stlport/stlport\" \"-IC:/Users/yangguang01/AppData/Local/Android/android-sdk/ndk-bundle/build//../sources/cxx-stl//gabi++/include\" \"-IF:/testjni/app/cpp2\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-mstackrealign\" \"-frtti\" \"--sysroot\" \"C:/Users/yangguang01/AppData/Local/Android/android-sdk/ndk-bundle/build//../platforms/android-15/arch-x86\""
+          "flags": "\"-gcc-toolchain\" \"C:/Users/yangguang01/AppData/Local/Android/android-sdk/ndk-bundle/build//../toolchains/x86-4.9/prebuilt/windows-x86_64\" \"-target\" \"i686-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fPIC\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-fno-exceptions\" \"-fno-rtti\" \"-O2\" \"-DNDEBUG\" \"-IF:/testjni/app/cpp2\" \"-IF:/testjni/app/cpp2/../cpp1\" \"-IF:/testjni/app/cpp2/../cpp3\" \"-IC:/Users/yangguang01/AppData/Local/Android/android-sdk/ndk-bundle/build//../sources/cxx-stl/stlport/stlport\" \"-IC:/Users/yangguang01/AppData/Local/Android/android-sdk/ndk-bundle/build//../sources/cxx-stl//gabi++/include\" \"-IF:/testjni/app/cpp2\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-mstackrealign\" \"-frtti\" \"--sysroot\" \"C:/Users/yangguang01/AppData/Local/Android/android-sdk/ndk-bundle/build//../platforms/android-15/arch-x86\""
         }
       ],
       "output": "F:\\testjni\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\x86\\libtest2.so"
