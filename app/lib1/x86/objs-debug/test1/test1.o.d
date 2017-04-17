@@ -96,7 +96,8 @@ F:/testjni/app/build/intermediates/ndkBuild/debug/obj/local/x86/objs-debug/test1
   C:/Users/yangguang01/AppData/Local/Android/android-sdk/ndk-bundle/build//../sources/cxx-stl/stlport/stlport\stl/_num_get.h \
   C:/Users/yangguang01/AppData/Local/Android/android-sdk/ndk-bundle/build//../sources/cxx-stl/stlport/stlport\stl/_num_get.c \
   C:/Users/yangguang01/AppData/Local/Android/android-sdk/ndk-bundle/build//../sources/cxx-stl/stlport/stlport\stl/_epilog.h \
-  C:/Users/yangguang01/AppData/Local/Android/android-sdk/ndk-bundle/build//../sources/cxx-stl/stlport/stlport\stl/_config_compat_post.h
+  C:/Users/yangguang01/AppData/Local/Android/android-sdk/ndk-bundle/build//../sources/cxx-stl/stlport/stlport\stl/_config_compat_post.h \
+  F:/testjni/app/cpp1/test1.h
 
 C:/Users/yangguang01/AppData/Local/Android/android-sdk/ndk-bundle/build//../sources/cxx-stl/stlport/stlport\iostream:
 
@@ -291,3 +292,5 @@ C:/Users/yangguang01/AppData/Local/Android/android-sdk/ndk-bundle/build//../sour
 C:/Users/yangguang01/AppData/Local/Android/android-sdk/ndk-bundle/build//../sources/cxx-stl/stlport/stlport\stl/_epilog.h:
 
 C:/Users/yangguang01/AppData/Local/Android/android-sdk/ndk-bundle/build//../sources/cxx-stl/stlport/stlport\stl/_config_compat_post.h:
+
+F:/testjni/app/cpp1/test1.h:
