@@ -1,0 +1,14 @@
+LOCAL_PATH := $(call my-dir)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := sub11
+
+LOCAL_C_INCLUDES := $(LOCAL_PATH)
+
+LOCAL_LDLIBS += -L$(SYSROOT)/usr/lib -llog
+
+LOCAL_EXPORT_C_INCLUDES := $(LOCAL_PATH)/..
+
+LOCAL_SRC_FILES := test11.cpp
+
+include $(BUILD_SHARED_LIBRARY)
